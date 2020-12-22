@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>1cb436ed-a889-4fc0-9714-8acdc6a18f22</groupId>
+	<groupId>org.mule.extension</groupId>
 	<artifactId>math-connector-extension</artifactId>
 	<packaging>mule-extension</packaging>
 	<version>1.0.0-SNAPSHOT</version>
@@ -36,13 +36,13 @@
 		<snapshotRepository>
 			<id>Repository</id>
 			<name>Exchange Repository</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/1cb436ed-a889-4fc0-9714-8acdc6a18f22/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/{orgId}/maven</url>
 			<layout>default</layout>
 		</snapshotRepository>
 		<repository>
 			<id>Repository</id>
 			<name>Exchange Repository</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/1cb436ed-a889-4fc0-9714-8acdc6a18f22/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/{orgId}/maven</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>

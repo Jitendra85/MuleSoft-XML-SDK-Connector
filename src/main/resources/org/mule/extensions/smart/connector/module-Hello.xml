@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="Hello Smart Connector"
+        prefix="module-hello"
+        doc:description="This module relies in runtime provided components"
+
+        xmlns="http://www.mulesoft.org/schema/mule/module"
+        xmlns:mule="http://www.mulesoft.org/schema/mule/core"
+        xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+           http://www.mulesoft.org/schema/mule/module http://www.mulesoft.org/schema/mule/module/current/mule-module.xsd
+           http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+           http://www.mulesoft.org/schema/mule/module-hello http://www.mulesoft.org/schema/mule/module-hello/current/mule-module-hello.xsd">
+
+    <operation name="add-two-numbers" doc:description="Add Two Numbers">
+    <parameters>
+    <parameter name="value1" type="number" />
+     <parameter name="value2" type="number" />
+     </parameters>
+        <body>
+            <mule:set-payload value="#[vars.value1 + vars.value2]"/>
+        </body>
+        <output type="number" doc:description="Payload's output"/>
+    </operation>
+    
+     <operation name="subtract-two-numbers" doc:description="Subtract Two Numbers">
+   <parameters>
+    <parameter name="value1" type="number" />
+     <parameter name="value2" type="number" />
+     </parameters>
+        <body>
+            <mule:set-payload value="#[vars.value1 - vars.value2]"/>
+        </body>
+        <output type="number" doc:description="Payload's output"/>
+    </operation>
+
+      <operation name="multiply-two-numbers" doc:description="Multiply Two Numbers">
+    <parameters>
+    <parameter name="value1" type="number" />
+     <parameter name="value2" type="number" />
+     </parameters>
+        <body>
+            <mule:set-payload value="#[vars.value1 * vars.value2]"/>
+        </body>
+        <output type="number" doc:description="Payload's output"/>
+    </operation>
+    
+    <operation name="divide-two-numbers" doc:description="Divide Two Numbers">
+     <parameters>
+    <parameter name="value1" type="number" />
+     <parameter name="value2" type="number" />
+      </parameters>
+        <body>
+            <mule:set-payload value="#[vars.value1 / vars.value2]"/>
+        </body>
+        <output type="number" doc:description="Payload's output"/>
+    </operation>
+
+ </module>

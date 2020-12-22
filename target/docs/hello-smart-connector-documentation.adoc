@@ -1,0 +1,129 @@
+:toc:               left
+:toc-title:         Hello Smart Connector Module
+:toclevels:         2
+:last-update-label!:
+:docinfo:
+:source-highlighter: coderay
+:icons: font
+
+
+= Hello Smart Connector Module Documentation Reference
+
++++
+This module relies in runtime provided components
++++
+
+
+== Configurations
+
+== Operations
+
+[[add-two-numbers]]
+=== Add Two Numbers
+`<module-hello:add-two-numbers>`
+
++++
+Add Two Numbers
++++
+
+==== Parameters
+[cols=".^20%,.^20%,.^35%,.^20%,^.^5%", options="header"]
+|======================
+| Name | Type | Description | Default Value | Required
+| Value1 a| Number |  |  | *x*{nbsp}
+| Value2 a| Number |  |  | *x*{nbsp}
+| Target Variable a| String |  +++The name of a variable on which the operation's output will be placed+++ |  | {nbsp}
+| Target Value a| String |  +++An expression that will be evaluated against the operation's output and the outcome of that expression will be stored in the target variable+++ |  +++#[payload]+++ | {nbsp}
+|======================
+
+==== Output
+[cols=".^50%,.^50%"]
+|======================
+| *Type* a| Number
+|======================
+
+
+
+
+[[divide-two-numbers]]
+=== Divide Two Numbers
+`<module-hello:divide-two-numbers>`
+
++++
+Divide Two Numbers
++++
+
+==== Parameters
+[cols=".^20%,.^20%,.^35%,.^20%,^.^5%", options="header"]
+|======================
+| Name | Type | Description | Default Value | Required
+| Value1 a| Number |  |  | *x*{nbsp}
+| Value2 a| Number |  |  | *x*{nbsp}
+| Target Variable a| String |  +++The name of a variable on which the operation's output will be placed+++ |  | {nbsp}
+| Target Value a| String |  +++An expression that will be evaluated against the operation's output and the outcome of that expression will be stored in the target variable+++ |  +++#[payload]+++ | {nbsp}
+|======================
+
+==== Output
+[cols=".^50%,.^50%"]
+|======================
+| *Type* a| Number
+|======================
+
+
+
+
+[[multiply-two-numbers]]
+=== Multiply Two Numbers
+`<module-hello:multiply-two-numbers>`
+
++++
+Multiply Two Numbers
++++
+
+==== Parameters
+[cols=".^20%,.^20%,.^35%,.^20%,^.^5%", options="header"]
+|======================
+| Name | Type | Description | Default Value | Required
+| Value1 a| Number |  |  | *x*{nbsp}
+| Value2 a| Number |  |  | *x*{nbsp}
+| Target Variable a| String |  +++The name of a variable on which the operation's output will be placed+++ |  | {nbsp}
+| Target Value a| String |  +++An expression that will be evaluated against the operation's output and the outcome of that expression will be stored in the target variable+++ |  +++#[payload]+++ | {nbsp}
+|======================
+
+==== Output
+[cols=".^50%,.^50%"]
+|======================
+| *Type* a| Number
+|======================
+
+
+
+
+[[subtract-two-numbers]]
+=== Subtract Two Numbers
+`<module-hello:subtract-two-numbers>`
+
++++
+Subtract Two Numbers
++++
+
+==== Parameters
+[cols=".^20%,.^20%,.^35%,.^20%,^.^5%", options="header"]
+|======================
+| Name | Type | Description | Default Value | Required
+| Value1 a| Number |  |  | *x*{nbsp}
+| Value2 a| Number |  |  | *x*{nbsp}
+| Target Variable a| String |  +++The name of a variable on which the operation's output will be placed+++ |  | {nbsp}
+| Target Value a| String |  +++An expression that will be evaluated against the operation's output and the outcome of that expression will be stored in the target variable+++ |  +++#[payload]+++ | {nbsp}
+|======================
+
+==== Output
+[cols=".^50%,.^50%"]
+|======================
+| *Type* a| Number
+|======================
+
+
+
+
+
